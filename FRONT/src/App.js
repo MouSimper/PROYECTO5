@@ -35,7 +35,7 @@ function App (){
     <AuthProvider>
      <Router>
           <Routes>
-              <Route path='' element={<PaginaPrincipal/>}/>
+              <Route path='/' element={<PaginaPrincipal/>}/>
               <Route path='/resultado' element={<ResultadoBusqueda/>}/>
               <Route path='/detalle/:id' element={<DetalleProducto/>}/>  
               <Route path='/Dashboard' element={<Dashboard/>}/>
